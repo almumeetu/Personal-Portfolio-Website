@@ -14,8 +14,8 @@
     --main-color: #13bbff;
     --other-color: #c3cad5;
 
-    --h1-font: 4.5rem;
-    --h2-font: 2.9rem;
+    --h1-font: 4.2rem;
+    --h2-font: 2.5rem;
     --p-font: 1rem;
 }
 body{
@@ -185,9 +185,33 @@ section{
 }
 .about-img img{
     width: 100%;
-    height: 530PX;
-    max-width: 530px;
+    height: 470px;
+    max-width: 470px;
     border-radius: 50%;
     object-fit: cover;
     border: 7px solid var(--main-color);
+    box-shadow: 0 0 20px var(--main-color);
+}
+.about-text h2{
+    font-size: var(--h2-font);
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+.exp-area{
+    margin-bottom: 50px;
+}
+.exp-area p{
+    color: var(--text-color);
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 42px;
+}
+.exp-area p span{
+    color: var(--other-color);
+    font-size: var(--p-font);
+    font-weight: 400;
+    margin-left: 8px;
+}
+.exp-2{
+    margin-bottom: 20px;
 }
