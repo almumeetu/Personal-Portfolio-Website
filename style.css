@@ -345,3 +345,32 @@ section{
 
 
 /* Contact */
+.contact-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4.2rem;
+}
+.contact-form form{
+    position: relative;
+    width: 600px;
+}
+form input, form textarea{
+    width: 100%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 5px var(--main-color);
+    background: #2d343f;
+    color: var(--text-color);
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+form input::placeholder,
+ form textarea::placeholder{
+    color: var(--other-color);
+    font-size: 15px;
+ }
+ .send-btn{
+    width: 30%;
+ }
