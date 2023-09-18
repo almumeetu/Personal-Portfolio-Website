@@ -463,7 +463,7 @@ form input::placeholder,
 }
 
 
-@media (max-width:1290px){
+@media (max-width:1240px){
     .about{
         grid-template-columns: 1fr;
         gap: 2rem;
@@ -472,21 +472,98 @@ form input::placeholder,
     .about-img img{
         text-align: center;
         width: 100%;
-        height: 400px;
-        max-width: 400px;
+        height: 380px;
+        max-width: 380px;
         border-radius: 50%;
         object-fit: cover;
         margin: 0 auto;
+    }
+    :root{--h1-font: 3.8rem;
+    --h2-font: 2rem;
+    --p-font: 15px;
+    }
+}
+
+
+@media (max-width:950px){
+    :root{
+        --h1-font:3.2rem;
+    }
+    .social{
+        margin-bottom: 20px;
+    }
+    #menu-icon{
+        display: block;
+    }
+    .navlist{
+        position: absolute;
+        top: 90%;
+        right: -100%;
+        width: 300px;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background: var(--bg-color);
+        transition: all .50s ease;
+    }
+    .navlist a{
+        display: block;
+        padding: 17px;
+        font-size: 18px;
+    }
+    .navlist.active{
+        right: 0;
+    }
+}
+
+
+@media (max-width:680px){
+    .main-content p{
+        width: 100%;
     }
 }
 
 
 
 
+@media (max-width:470px){
+    :root{
+        --h1-font:2.9rem;
+        --h2-font:1.8rem;
+    }
+    .about-img img{
+        text-align: center;
+        width: 100%;
+        height: 300px;
+        max-width: 300px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin: 0 auto;
+    }
+
+}
 
 
-
-
-
+@media (max-width:550px){
+    
+    .send-btn {
+        width: 50%;
+    }
+    .navlist{
+        width: 50%;
+    }
+}
+@media (max-width:440px){
+    .logo {
+        font-size: 20px;
+    }
+    #menu-icon {
+        font-size: 24px;
+    }
+    .h-btn {
+        padding: 5px 15px;
+        font-size: 14px;
+    }
+}
 
 
