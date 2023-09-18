@@ -402,3 +402,91 @@ form input::placeholder,
     color: var(--text-color);
     font-size: 27px;
  }
+
+
+
+
+
+ /* Responsive CSS */
+
+@media (max-width:1700px){
+    header{
+        padding: 20px 8%;
+    }
+    .sticky{
+        padding: 14px 8%;
+    }
+    section{
+        padding: 90px 8% 80px;
+    }
+    .footer{
+        padding: 18px 8%;
+    }
+    .logo{
+        font-size: 28px;
+    }
+}
+
+
+@media (max-width:1380px){
+    header{
+        padding: 20px 5%;
+    }
+    .sticky{
+        padding: 14px 5%;
+    }
+    section{
+        padding: 90px 5% 80px;
+    }
+    .footer{
+        padding: 18px 5%;
+    }
+    .hero{
+        height: 90vh;
+        background-position: center;
+    }
+}
+
+
+@media (max-width:1290px){
+    .box{
+        padding: 40px 40px 46px;
+    }
+    .box img{
+        width: 100%;
+        height: 60px;
+        max-width: 60px;
+    }
+    .box h3{
+        font-size: 21px;
+    }
+}
+
+
+@media (max-width:1290px){
+    .about{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        text-align: center;
+    }
+    .about-img img{
+        text-align: center;
+        width: 100%;
+        height: 400px;
+        max-width: 400px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
